@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>xvp Pool Status</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Imagetoolbar" content="no" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="description" content="xvp Pool Status" />
+<meta name="copyright" content="(C) Colin Dean" />
+<meta name="author" content="Colin Dean" />
+<meta name="robots" content="noindex,nofollow,noarchive" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.contextMenu.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.contextMenu.js"></script>
+<script type="text/javascript" src="js/click.js"></script>
+<script type="text/javascript" src="js/requester.js"></script>
+</head>
+<body>
+
+<h1>Xen Pool Status</h1>
+
+<div id="timestamp">Update pending</div>
+<div id="reloads">updates automatically - do not use refresh button</div>
+
+<iframe class="hidden" id="actions-$vm->fullname" name="actions-$vm->fullname" src="blank.html"></iframe>
+<iframe class="hidden" id="console-$vm->fullname" name="console-$vm->fullname" src="blank.html"></iframe>
+
+<ul id="vmmenu-$vm->fullname" class="contextMenu">
+  <li class="console">
+    <a href="#console">Console</a>
+  </li>
+  <li class="boot separator">
+    <a href="#boot">Boot</a>
+  </li>
+  <li class="booton">
+    <a href="#booton">Boot on ...</a>
+  </li>
+  <li class="shutdown separator">
+    <a href="#shutdown">Shutdown</a>
+  </li>
+  <li class="poweroff">
+    <a href="#poweroff">Force Shutdown</a>
+  </li>
+  <li class="reboot separator">
+    <a href="#reboot">Reboot</a>
+  </li>
+  <li class="reset">
+    <a href="#reset">Force Reboot</a>
+  </li>
+  <li class="suspend separator">
+    <a href="#suspend">Suspend</a>
+  </li>
+  <li class="resume">
+    <a href="#resume">Resume</a>
+  </li>
+  <li class="resumeon">
+    <a href="#resumeon">Resume on ...</a>
+  </li>
+  <li class="migrate separator">
+    <a href="#migrate">Migrate to ...</a>
+  </li>
+  <li class="properties separator">
+    <a href="#properties">Properties</a>
+  </li>
+</ul>
+
+<div id="logo">
+  <h1>
+    <a class="logo" href="http://www.xvpsource.org/">xvp</a><span class="tm">&trade;</span>
+  </h1>
+</div>
+
+</body></html>
+

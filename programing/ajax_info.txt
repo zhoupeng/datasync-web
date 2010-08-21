@@ -1,0 +1,9 @@
+AJAX = Asynchronous JavaScript and XML.
+
+AJAX is not a new programming language, but a new way to use existing standards.
+
+AJAX is the art of exchanging data with a server, and update parts of a web page - without reloading the whole page.
+
+
+Refrences:
+http://www.w3schools.com/Ajax/Default.Asp
